@@ -1,5 +1,9 @@
 ## A ver si con esto funciona.
-use_git_config(user.name = "Jane", user.email = "jane@example.org")
+git2r::config(
+  global = TRUE,
+  user.name = "straychild01",
+  user.email = "stray.childhood@gmail.com"
+)
 
 
 librerias_a_usar <- c(
